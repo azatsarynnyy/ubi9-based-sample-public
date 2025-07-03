@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: quay.io/devspaces/jetbrains-ide-rhel9:next
+      image: quay.io/devfile/base-developer-image:ubi9-latest
       args: ['tail', '-f', '/dev/null']
       endpoints:
         - exposure: public

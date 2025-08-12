@@ -1,6 +1,6 @@
 schemaVersion: 2.2.2
 metadata:
-  name: ubi9
+  name: ubi9-demo
 components:
   - name: tools
     container:

@@ -1,6 +1,6 @@
 schemaVersion: 2.2.2
 metadata:
-  name: ubi9-minimal-demo
+  name: universal-developer-image-demo
 components:
   - name: tools
     container:

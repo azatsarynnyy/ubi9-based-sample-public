@@ -1,10 +1,10 @@
 schemaVersion: 2.2.2
 metadata:
-  name: ubi9-minimal-demo
+  name: ubi10-minimal-demo
 components:
   - name: tools
     container:
-      image: registry.access.redhat.com/ubi9-minimal
+      image: registry.access.redhat.com/ubi10-minimal
       args: ['tail', '-f', '/dev/null']
       endpoints:
         - exposure: public
